@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import Dashboard from "@/components/Dashboard";
 
-export default function Home() {
+export default function Home() { 
   return (
-    <div>Página principal</div>
+    <div className="row-span-3 col-span-2 justify-self-center self-center w-5/6">
+      <Dashboard />
+    </div>
   )
 }
